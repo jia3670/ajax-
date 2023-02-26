@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注册</title>
+    <link rel="stylesheet" href="../utils/共用.css">
+    <script src="../utils/mock-min.js"></script>
+    <script src="../utils/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <div id="ds">欢迎来到注册页面</div>
+    <div class="di1">
+        <p><span>用户名:</span> <input type="text" id='user'placeholder='请输入2~8位中文'><span id="usere"></span></p>
+        <p><span>密码:</span> <input type="password" id='password'placeholder='请输入4~16位数字'><span id="passworde"></span></p>
+        <button onclick="addById2()">注册</button>
+    </div>
+    
+</body>
+
+</html>
+<script src="../utils/md5.js"></script>
+<script src="../utils/封装.js"></script>
+<script src="../componnets/注册前端.js"></script>
+<script src="../api/注册后端js.js"></script>

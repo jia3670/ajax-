@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>简介后台</title>
+    <link rel="stylesheet" href="../../public/css/简介后台.css">
+    <script src="../utils/mock-min.js"></script>
+    <script src="../utils/jquery.min.js"></script>
+</head>
+
+<body>
+    <div id="biao">电影简介后台</div>
+    <div id="di1">
+        <div id="di2">
+            全选:<input type="checkbox" name="" id="boxx">
+            <button onclick="san()">添加</button>
+            <input type="text" name="" id="cha"><button onclick="cha()">查找</button><button
+                onclick="shane1()">删除</button><button onclick="xiu11()">选修改</button>
+        </div>
+        <table cellspacing="0" id="sfbz2">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>电影图片</th>
+                    <th>电影名字</th>
+                    <th>导演</th>
+                    <th>演员</th>
+                    <th>上映时间</th>
+                    <th>操作</th>
+                </tr>
+            </thead>
+            <tbody id="ew"></tbody>
+        </table>
+        <div id="e1">
+            <div id="eew1">
+                <p>图书图片:<input type="file" id='tup1'><img src="" alt="" id='box1'></p>
+                <p><input type="text" placeholder='电影名字' id='ewm1'></p>
+                <p><input type="text" placeholder='导演' id='ewd1'></p>
+                <p><input type="text" placeholder='演员' id='ewy1'></p>
+                <p><input type="date" placeholder='上映时间' id='ews1'></p>
+                <p><button onclick="addById4()">添加</button><button onclick="quxiao1()">取消</button></p>
+            </div>
+            <div id="eew2">
+                <p>图书图片:<input type="file" id='tup2'><img src="" alt="" id='box2'></p>
+                <p><input type="text" placeholder='电影名字' id='ewm2'></p>
+                <p><input type="text" placeholder='导演' id='ewd2'></p>
+                <p><input type="text" placeholder='演员' id='ewy2'></p>
+                <p><input type="date" placeholder='上映时间' id='ews2'></p>
+                <p><button onclick="xiugai()">修改</button><button onclick="quxiao2()">取消</button></p>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
+<script src="../utils/封装.js"></script>
+<script src="../api/简介后台.js"></script>
+<script src="../componnets/简介前端.js"></script>

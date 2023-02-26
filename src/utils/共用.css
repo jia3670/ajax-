@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.di1{
+    width: 500px;
+    height: 300px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin: 50px auto;
+    text-align: center;
+}
+p{
+    height: 50px;
+    width: 100%;
+    margin-top: 30px;
+    font-size: 20px;
+    position: relative;
+}
+p>span:nth-of-type(1){
+    position: absolute;
+    left: 80px;
+    line-height: 50px;
+}
+p>span:nth-of-type(2){
+    position: absolute;
+    right:50px;
+    line-height: 50px;
+}
+p>input{
+    width: 150px;
+    height: 100%;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    background-color: lightblue;
+}
+.di1>button{
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: '楷体';
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+#ds{
+    width: 300px;
+    height: 50px;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 50px auto;
+}
