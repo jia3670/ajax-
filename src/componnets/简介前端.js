@@ -192,6 +192,7 @@ function cha() {
     })
 }
 
+
 //全选
 
 ee('boxx').onclick = function () {
@@ -257,25 +258,25 @@ function xiu11() {
     }
 }
 function quxiao1() {
-        $('e1').style.display = 'none';
-        $('eew1').style.display = 'none';
-        $('ewm1').value = '';
-        $('ewd1').value = '';
-        $('ewy1').value = '';
-        $('ews1').value = '';
-        $('tup1').value = '';
+        ee('e1').style.display = 'none';
+        ee('eew1').style.display = 'none';
+        ee('ewm1').value = '';
+        ee('ewd1').value = '';
+        ee('ewy1').value = '';
+        ee('ews1').value = '';
+        ee('tup1').value = '';
         qe = '';
         $('box1').src = '';
     }
 
 function quxiao2() {
-        $('e1').style.display = 'none';
-        $('eew2').style.display = 'none';
-        $('ewm2').value = '';
-        $('ewd2').value = '';
-        $('ewy2').value = '';
-        $('ews2').value = '';
-        $('tup2').value = '';
+        ee('e1').style.display = 'none';
+        ee('eew2').style.display = 'none';
+        ee('ewm2').value = '';
+        ee('ewd2').value = '';
+        ee('ewy2').value = '';
+        ee('ews2').value = '';
+        ee('tup2').value = '';
         qe = '';
-        $('box2').src = '';
+        ee('box2').src = '';
 }
