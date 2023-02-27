@@ -266,7 +266,7 @@ function quxiao1() {
         ee('ews1').value = '';
         ee('tup1').value = '';
         qe = '';
-        $('box1').src = '';
+        ee('box1').src = '';
     }
 
 function quxiao2() {

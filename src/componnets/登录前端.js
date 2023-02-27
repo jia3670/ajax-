@@ -6,8 +6,8 @@ class stu {
 }
 //点击显示
 function san() {
-    $('e1').style.display = 'block'
-    $('eew1').style.display = 'block'
+    ee('e1').style.display = 'block'
+    ee('eew1').style.display = 'block'
 }
 function addById3() {
     let stus = new stu(ee('user').value, ee('password').value);
@@ -22,7 +22,7 @@ function addById3() {
             }
             if (enw == false) {
                 alert("登陆成功 ")
-                
+                window.location.href = ".././views/简介.html"
             }
         }
     })
